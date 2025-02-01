@@ -10,10 +10,19 @@ Projeto para pegar dados de uma API publica e carregar em SQLite
 pip install -r requirements.txt
 ```
 
+#### Se estiver usando uv
+
+```bash
+uv sync
+```
+
 ### Rodar o projeto
 
 ```bash
 python app.py
 ```
+
+
+Vai criar um banco de dados sqlite com o nome `calendarific.db`
 
 
